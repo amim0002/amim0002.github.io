@@ -1,0 +1,67 @@
+body{
+font-family: Arial, sans-serif;
+background-color:#9ec2bf;
+margin:0;
+}
+
+header{
+position:relative;
+text-align:center;
+color:white;
+}
+
+header img{
+width:100%;
+}
+
+header h1{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:40px;
+}
+
+nav{
+background:white;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+margin:0 20px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+main{
+background:#d9e8e7;
+padding:20px;
+width:800px;
+margin:auto;
+}
+
+.starfish{
+float:left;
+margin-right:20px;
+width:200px;
+}
+
+form{
+border:1px solid gray;
+padding:20px;
+margin-top:20px;
+}
+
+input, textarea{
+width:100%;
+margin-bottom:10px;
+padding:5px;
+}
+
+footer{
+text-align:right;
+padding:10px;
+font-size:12px;
+}
